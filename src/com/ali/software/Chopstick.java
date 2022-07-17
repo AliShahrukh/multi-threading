@@ -24,10 +24,10 @@ public class Chopstick {
         return false;
     }
 
-    public void putDown(Philosopher philosopher) {
+    public void putDown(Philosopher philosopher, State state) {
 
         lock.unlock();
-        System.out.println(philosopher + " put down " + this);
+        System.out.println(philosopher + " put down " + state.toString() + " " + this);
     }
 
     @Override
