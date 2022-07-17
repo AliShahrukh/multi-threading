@@ -43,7 +43,7 @@ public class Philosopher implements Runnable {
     }
 
     private void eat() throws InterruptedException {
-        System.out.print(this + " is eating...");
+        System.out.println(this + " is eating...");
         eatingCounter++;
         Thread.sleep(random.nextInt(1000));
     }
@@ -54,6 +54,10 @@ public class Philosopher implements Runnable {
 
     public boolean isFull() {
         return this.full;
+    }
+
+    public int getEatingCounter() {
+        return this.eatingCounter;
     }
 
     @Override

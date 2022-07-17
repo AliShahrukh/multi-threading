@@ -5,7 +5,7 @@ public class Constants {
     private Constants() {
     }
 
-    private static final int NUMBER_OF_PHILOSOPHERS = 5;
-    private static final int NUMBER_OF_CHOPSTICK = 5;
-    private static final int SIMULATION_RUNNING_TIME = 5*1000;
+    public static final int NUMBER_OF_PHILOSOPHERS = 5;
+    public static final int NUMBER_OF_CHOPSTICK = 5;
+    public static final int SIMULATION_RUNNING_TIME = 5*1000;
 }
