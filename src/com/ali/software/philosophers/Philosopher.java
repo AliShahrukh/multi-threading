@@ -1,4 +1,4 @@
-package com.ali.software;
+package com.ali.software.philosophers;
 
 import java.util.Random;
 

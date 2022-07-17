@@ -1,4 +1,4 @@
-package com.ali.software;
+package com.ali.software.philosophers;
 
 public class Constants {
 
